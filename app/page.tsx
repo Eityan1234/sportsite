@@ -30,7 +30,7 @@ export default function Home() {
           <section className="mt-12 flex flex-col items-center gap-6">
             <button
               type="button"
-              onClick={() => handleNavigation("#")}
+              onClick={() => handleNavigation("/soccer/rankTable")}
               className="w-64 py-4 text-lg font-semibold bg-slate-700 hover:bg-slate-600 text-white rounded-full shadow-md transition"
             >
               サッカー
