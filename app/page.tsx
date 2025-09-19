@@ -38,7 +38,7 @@ export default function Home() {
 
             <button
               type="button"
-              onClick={() => handleNavigation("#")}
+              onClick={() => handleNavigation("/basketball/ranking")}
               className="w-64 py-4 text-lg font-semibold bg-slate-700 hover:bg-slate-600 text-white rounded-full shadow-md transition"
             >
               バスケットボール
